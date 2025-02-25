@@ -21,7 +21,7 @@ function Calculator() {
         if (nameInput && matnoInput && levelInput) {
             setName(nameInput.value);
             setMatNo(matnoInput.value);
-            setLevel(levelInput.value)
+            setLevel(Number(levelInput.value))
             setDetailsFilled(true)
         }else{
             setDetailsFilled(false)
